@@ -1,4 +1,22 @@
 
+function get_url(url)
+    local http = gg.makeRequest(url)
+    if http.code == 200 then
+        return http.content
+    else
+        gg.alert("Gagal mengambil password dari URL!")
+        os.exit()
+    end
+end
+
+local password = get_url("https://raw.githubusercontent.com/NantaXT/xt-data/main/pass.txt")
+
+local input = gg.prompt({"Masukkan Password:"})[1]
+if input ~= password then
+    gg.alert("Password Salah!")
+    os.exit()
+end
+
 gg.alert("🔥XT MODE PRO 🔥\n🎄☃️", "⚡XT MODE PRO MENU⚡")
 
 function script()
