@@ -186,6 +186,11 @@ gg.searchNumber(";ffrtc_log")
 gg.getResults(gg.getResultsCount())
 gg.editAll(";off", gg.TYPE_WORD)
 gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)
+gg.searchNumber("h 5A 55 A5 E3 B5 51 CD E1")
+gg.getResults(155)
+gg.editAll("h 55 F5 25 E3", gg.TYPE_BYTE)
+gg.clearResults()  
 gg.toast('𝑩𝒀𝑷𝑨𝑺𝑺 𝑽𝑰𝑷 𝑨𝑲𝑻𝑰𝑭')
 end
 
