@@ -9,7 +9,7 @@ function get_url(url)
     end
 end
 
-local password = get_url("https://raw.githubusercontent.com/NantaXT/xt-data/main/pass.txt")
+local password = get_url("https://raw.githubusercontent.com/NantaXT/xt-data/refs/heads/main/pass.txt")
 
 local input = gg.prompt({"Masukkan Password:"})[1]
 if input ~= password then
