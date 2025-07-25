@@ -1,7 +1,7 @@
 gg.alert("🔥INTERNET OPEN 🔥\n", "⚡OK⚡")
 
 function insertKey()
-  local key = "lagi di ganti tunggu 2 Menit"
+  local key = "https://sfl.gl/l07M4"
   gg.toast("LINK KEY SCRIPT")
   gg.copyText(key)
 end
