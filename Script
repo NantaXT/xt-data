@@ -1,5 +1,15 @@
+gg.alert("🔥INTERNET OPEN 🔥\n", "⚡OK⚡")
 
-gg.alert("🔥INTERNET OPEN 🔥\n🎄☃️", "⚡OK⚡")
+function insertKey()
+  local key = "4"
+  gg.toast("LINK KEY SCRIPT")
+  gg.copyText(key)
+end
+
+menu = gg.choice({"COPY LINK KEY", "LOGIN"}, nil, "LINK | KEY 1Days New")
+if menu == 1 then
+  insertKey()
+end
 
 function get_url(url)
     local http = gg.makeRequest(url)
