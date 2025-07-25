@@ -29,7 +29,7 @@ function script()
     "𝑺𝑷𝑬𝑬𝑫 𝑹𝑼𝑵 𝟑𝑿",
     "𝑰𝑵𝑽𝑰𝑺𝑰𝑩𝑳𝑬 𝑮𝑳𝑶𝑾𝑨𝑳𝑳",
     "❌Exit🔙"
-  }, nil, "🎅🏻Script Vip Premium🎅🏻\n🌠Creador: XT MODE PRO 🌠\n☃️Youtube: XT MODE PRO ™☃️\n")
+  }, nil, "🎅🏻Script Vip Premium🎅🏻\nKEY 1 Days XTKeyP48J2F5\n🌠TELEGRAM: XT MODE PRO 🌠\n☃️Youtube: XT MODE PRO ™☃️\n")
 
   if menuprincipal == nil then
     gg.toast("☃️Subscríbete XT MODE PRO ☃️")
