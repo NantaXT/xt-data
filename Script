@@ -1,7 +1,7 @@
 gg.alert("🔥INTERNET OPEN 🔥\n", "⚡OK⚡")
 
 function insertKey()
-  local key = "4"
+  local key = "lagi di ganti tunggu 2 Menit"
   gg.toast("LINK KEY SCRIPT")
   gg.copyText(key)
 end
