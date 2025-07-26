@@ -29,7 +29,7 @@ if input ~= password then
     os.exit()
 end
 
-gg.alert("🔥KEY WORK | XTKeyP48J2F5\n🎄☃️", "OK")
+gg.alert("🔥KEY WORK | XTKeyW17T6R8\n🎄☃️", "OK")
 
 function script()
   menuprincipal = gg.multiChoice({
