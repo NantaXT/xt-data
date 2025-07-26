@@ -466,11 +466,6 @@ gg.setRanges(gg.REGION_ANONYMOUS)
     gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
     gg.editAll('20.780', gg.TYPE_FLOAT)
     gg.clearResults()
-  gg.getTargetInfo()
-  gg.getRangesList("/data/app/~~tGpDHVPP3nLg-yqtPTyFeA==/com.waxmoon.ma.gp-Gm9GyFWD9g4rOeHn4KLgXg==/lib/arm64/libil2cpp.so")
-  gg.getTargetInfo()
-  gg.getRangesList("/data/app/~~tGpDHVPP3nLg-yqtPTyFeA==/com.waxmoon.ma.gp-Gm9GyFWD9g4rOeHn4KLgXg==/lib/arm64/libil2cpp.so")
-  gg.clearResults()      
     gg.toast('𝑺𝑷𝑬𝑬𝑫 𝑹𝑼𝑵 𝟑𝑿 𝑨𝑲𝑻𝑰𝑭')
   end
 
